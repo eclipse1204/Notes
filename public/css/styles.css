@@ -1,0 +1,55 @@
+@media(min-width:1200px){
+    .home{
+        height: 92vh;
+        background: 
+            url('../images/noise-bg.png'),
+            url('../images/human-1.svg') left no-repeat,
+            url('../images/human-2.svg') right no-repeat;
+
+        background-color: #FFC436;
+    }
+}
+
+@media(max-width:400px){
+    .intro{
+        font-size: 2rem !important;
+    }
+    .intro-p{
+        font-size: 1rem !important;
+    }
+}
+
+.error{
+    background-image: url('../images/404.png');
+}
+
+body{
+    background-color: #FFC436;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    background-image: url('../images/noise-bg.png');
+}
+
+h1{
+    font-weight: 700;  
+}
+
+.intro{
+    font-weight: bold;
+    position: relative;
+    font-size: 3rem;
+    color: #0C356A;
+}
+
+.intro-p{
+    font-size: 1.2rem;
+}
+
+.try{
+    background-color: #0C356A;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+}
